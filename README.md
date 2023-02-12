@@ -39,7 +39,7 @@ Documentation:
 
 -staked_addresses: returns all addresses participating in staking
 -staking_position: returns staked amount by the user, whose contract address is passed as input
--contract_reward_balance: tracks & returns the contract's reward balance(extra fund which was added, which will be used when rewards gets distributed)
+-contract_reward_balance: tracks & returns the contracts reward balance(extra fund which was added, which will be used when rewards gets distributed)
 -updated_at: returns the last block timestamp, used for rewards calculation
 -reward_stored: returns total rewards stored till now
 -user_reward_paid: returns total rewards paid for a user
@@ -51,6 +51,11 @@ Documentation:
 ```
 
 
+## Staking Flowchart & Testing
+
+This, exactly, has been implemented in testing,
+Mandos can be used for testing, this project uses Rust testing framework, more details provided in [multiversx docs](https://docs.multiversx.com/developers/developer-reference/rust-testing-framework)
+Testing file can be found in ./staking-contract/tests/empty_rust_test.rs
 
 ![Untitled drawio](https://user-images.githubusercontent.com/35892549/218341985-4c8b1676-7942-4038-8c91-57155fae5729.png)
 
