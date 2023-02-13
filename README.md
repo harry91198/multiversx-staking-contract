@@ -13,6 +13,8 @@ add wallet pem file in ./staking-contract
 ## Smart Contract
 Staking smart contract is deployed here [erd1qqqqqqqqqqqqqpgqtz5me5t0tqze8ckpre6u34y0nc7dyg7ahfwsqpyuh0](https://devnet-explorer.multiversx.com/accounts/erd1qqqqqqqqqqqqqpgqtz5me5t0tqze8ckpre6u34y0nc7dyg7ahfwsqpyuh0)
 
+The contract is made `upgradeable` & `readable`, also added functions which are `payable` to deal with the transfers of EGLD
+
 
 Requirement: 
 ```bash
